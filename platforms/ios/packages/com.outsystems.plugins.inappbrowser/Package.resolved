@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "osinappbrowserlib-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/OutSystems/OSInAppBrowserLib-iOS.git",
+      "state" : {
+        "revision" : "5b58eee6b50fdea71cb67f1dd5a08b3e50443072",
+        "version" : "2.2.1"
+      }
+    }
+  ],
+  "version" : 2
+}

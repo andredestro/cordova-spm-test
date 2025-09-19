@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "cordova-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apache/cordova-ios.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "91124d187107a9758e5e1c3f26f61c5490916f7e"
+      }
+    },
+    {
+      "identity" : "osinappbrowserlib-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/OutSystems/OSInAppBrowserLib-iOS.git",
+      "state" : {
+        "revision" : "5b58eee6b50fdea71cb67f1dd5a08b3e50443072",
+        "version" : "2.2.1"
+      }
+    }
+  ],
+  "version" : 2
+}
