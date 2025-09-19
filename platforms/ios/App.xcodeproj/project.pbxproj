@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		037175DDEDBEC05D1D176179 /* Pods_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2960AB51E2D81CD9F76528C4 /* Pods_App.framework */; };
+		06D30C88DC054EFB8FF95A0E /* OSBARCArgumentMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56294EB042844F58852AAAEA /* OSBARCArgumentMappable.swift */; };
+		21AFABF77AFF41C9BB810C2F /* OSBarcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C41A1ADFA04C6AB8E9E5DA /* OSBarcode.swift */; };
+		8DB08DCAB4354C70938D8569 /* OSBarcodeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD019EAF309147EE92BABCAF /* OSBarcodeError.swift */; };
 		907F98562C06B87200D2D242 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 907F98552C06B87200D2D242 /* PrivacyInfo.xcprivacy */; };
 		907F98662C06BC1B00D2D242 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 907F98652C06BC1B00D2D242 /* config.xml */; };
 		907F986A2C06BCD300D2D242 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 907F98692C06BCD300D2D242 /* www */; };
@@ -18,6 +22,7 @@
 		90CBB52A2C06968500B805A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CBB5292C06968500B805A2 /* SceneDelegate.swift */; };
 		90CBB52C2C06968500B805A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CBB52B2C06968500B805A2 /* ViewController.swift */; };
 		90D82ABD2CF19AEA001383CF /* CordovaPlugins in Frameworks */ = {isa = PBXBuildFile; productRef = 90D82ABC2CF19AEA001383CF /* CordovaPlugins */; };
+		DAFE10587FA642C2AC513770 /* OSBARCScanParameters+Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66092F4E2AC4C4B9BC1523A /* OSBARCScanParameters+Decodable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +39,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		047DBCDA0F0B6FD8FC08580A /* Pods-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.debug.xcconfig"; path = "Target Support Files/Pods-App/Pods-App.debug.xcconfig"; sourceTree = "<group>"; };
+		2960AB51E2D81CD9F76528C4 /* Pods_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56294EB042844F58852AAAEA /* OSBARCArgumentMappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = OSBARCArgumentMappable.swift; path = com.outsystems.plugins.barcode/extensions/OSBARCArgumentMappable.swift; sourceTree = "<group>"; };
+		8716E01A5CDC84DA2E50258B /* Pods-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.release.xcconfig"; path = "Target Support Files/Pods-App/Pods-App.release.xcconfig"; sourceTree = "<group>"; };
 		9040B1872C6DD3EB00662C5D /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		9040B1882C6DD41B00662C5D /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		907F98552C06B87200D2D242 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
@@ -56,6 +65,9 @@
 		90EB30402C6DD87600CEEB2F /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
 		90F7E7002C6EB78900AD84C2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		90F7E7012C6EB78900AD84C2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C4C41A1ADFA04C6AB8E9E5DA /* OSBarcode.swift */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = OSBarcode.swift; path = com.outsystems.plugins.barcode/OSBarcode.swift; sourceTree = "<group>"; };
+		DD019EAF309147EE92BABCAF /* OSBarcodeError.swift */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = OSBarcodeError.swift; path = com.outsystems.plugins.barcode/OSBarcodeError.swift; sourceTree = "<group>"; };
+		F66092F4E2AC4C4B9BC1523A /* OSBARCScanParameters+Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "OSBARCScanParameters+Decodable.swift"; path = "com.outsystems.plugins.barcode/extensions/OSBARCScanParameters+Decodable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,12 +77,23 @@
 			files = (
 				90A914592CA3D370003DB979 /* Cordova in Frameworks */,
 				90D82ABD2CF19AEA001383CF /* CordovaPlugins in Frameworks */,
+				037175DDEDBEC05D1D176179 /* Pods_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57D2F8E140CE7925064E9174 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				047DBCDA0F0B6FD8FC08580A /* Pods-App.debug.xcconfig */,
+				8716E01A5CDC84DA2E50258B /* Pods-App.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		905D2F6D2C6DDEE100117937 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +104,10 @@
 		907F98542C06B85800D2D242 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				C4C41A1ADFA04C6AB8E9E5DA /* OSBarcode.swift */,
+				DD019EAF309147EE92BABCAF /* OSBarcodeError.swift */,
+				56294EB042844F58852AAAEA /* OSBARCArgumentMappable.swift */,
+				F66092F4E2AC4C4B9BC1523A /* OSBARCScanParameters+Decodable.swift */,
 			);
 			path = Plugins;
 			sourceTree = "<group>";
@@ -88,6 +115,7 @@
 		907F98602C06B8F000D2D242 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2960AB51E2D81CD9F76528C4 /* Pods_App.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,7 +140,7 @@
 			name = staging;
 			sourceTree = "<group>";
 		};
-		90BD9B632C06907D000DEBAB /* CustomTemplate */ = {
+		90BD9B632C06907D000DEBAB = {
 			isa = PBXGroup;
 			children = (
 				9080B40F2C6DD7EC00078F33 /* config.xml */,
@@ -120,6 +148,7 @@
 				90BD9B6E2C06907D000DEBAB /* App */,
 				90BD9B6D2C06907D000DEBAB /* Products */,
 				907F98602C06B8F000D2D242 /* Frameworks */,
+				57D2F8E140CE7925064E9174 /* Pods */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -141,7 +170,7 @@
 				90BD9B7D2C06907E000DEBAB /* CDVLaunchScreen.storyboard */,
 				90BD9B782C06907D000DEBAB /* Main.storyboard */,
 				90BD9B7B2C06907E000DEBAB /* Assets.xcassets */,
-				90BD9B802C06907E000DEBAB /* Info.plist */,
+				90BD9B802C06907E000DEBAB /* App-Info.plist */,
 				907F98552C06B87200D2D242 /* PrivacyInfo.xcprivacy */,
 				907F98622C06B97000D2D242 /* Entitlements-Debug.plist */,
 				907F98632C06B9C800D2D242 /* Entitlements-Release.plist */,
@@ -163,10 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90BD9B852C06907E000DEBAB /* Build configuration list for PBXNativeTarget "App" */;
 			buildPhases = (
+				D95302A0422C6F82CB127F3C /* [CP] Check Pods Manifest.lock */,
 				90BD9B682C06907D000DEBAB /* Sources */,
 				90BD9B692C06907D000DEBAB /* Frameworks */,
 				90BD9B6A2C06907D000DEBAB /* Resources */,
 				902AE2152C6C059A0041150F /* Embed Frameworks */,
+				CB3E827A1D3FBD57CB901660 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -204,10 +235,10 @@
 				en,
 				Base,
 			);
-			mainGroup = 90BD9B632C06907D000DEBAB /* CustomTemplate */;
+			mainGroup = 90BD9B632C06907D000DEBAB;
 			packageReferences = (
-				90A914572CA3D370003DB979 /* XCLocalSwiftPackageReference "../../../cordova-ios" */,
-				90D82ABB2CF19AEA001383CF /* XCLocalSwiftPackageReference "CordovaPlugins" */,
+				90A914572CA3D370003DB979 /* XCLocalSwiftPackageReference "cordova-ios" */,
+				90D82ABB2CF19AEA001383CF /* XCLocalSwiftPackageReference "cordova-ios-plugins" */,
 			);
 			productRefGroup = 90BD9B6D2C06907D000DEBAB /* Products */;
 			projectDirPath = "";
@@ -234,6 +265,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CB3E827A1D3FBD57CB901660 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-App/Pods-App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-App/Pods-App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-App/Pods-App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D95302A0422C6F82CB127F3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		90BD9B682C06907D000DEBAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -242,6 +315,10 @@
 				90CBB52C2C06968500B805A2 /* ViewController.swift in Sources */,
 				90CBB5282C06968500B805A2 /* AppDelegate.swift in Sources */,
 				90CBB52A2C06968500B805A2 /* SceneDelegate.swift in Sources */,
+				21AFABF77AFF41C9BB810C2F /* OSBarcode.swift in Sources */,
+				8DB08DCAB4354C70938D8569 /* OSBarcodeError.swift in Sources */,
+				06D30C88DC054EFB8FF95A0E /* OSBARCArgumentMappable.swift in Sources */,
+				DAFE10587FA642C2AC513770 /* OSBARCScanParameters+Decodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +416,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_WORKSPACE = NO;
+				SWIFT_VERSION = 5;
 			};
 			name = Debug;
 		};
@@ -406,6 +484,7 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				SWIFT_VERSION = 5;
 			};
 			name = Release;
 		};
@@ -442,7 +521,7 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(TARGET_NAME)/Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = "1,2,6,7";
 			};
 			name = Debug;
@@ -480,7 +559,7 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(TARGET_NAME)/Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = "1,2,6,7";
 			};
 			name = Release;
@@ -509,11 +588,11 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		90A914572CA3D370003DB979 /* XCLocalSwiftPackageReference "../../../cordova-ios" */ = {
+		90A914572CA3D370003DB979 /* XCLocalSwiftPackageReference "cordova-ios" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = "packages/cordova-ios";
 		};
-		90D82ABB2CF19AEA001383CF /* XCLocalSwiftPackageReference "packages/cordova-ios-plugins" */ = {
+		90D82ABB2CF19AEA001383CF /* XCLocalSwiftPackageReference "cordova-ios-plugins" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = "packages/cordova-ios-plugins";
 		};

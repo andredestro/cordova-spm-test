@@ -1,0 +1,16 @@
+PODS:
+  - OSBarcodeLib (2.0.1)
+
+DEPENDENCIES:
+  - OSBarcodeLib (= 2.0.1)
+
+SPEC REPOS:
+  trunk:
+    - OSBarcodeLib
+
+SPEC CHECKSUMS:
+  OSBarcodeLib: 57987d2eb1f916f701f4554e20e349b3cb83f023
+
+PODFILE CHECKSUM: 16769c2283fdacc8b952be6f728b69a89c2a67fb
+
+COCOAPODS: 1.16.2

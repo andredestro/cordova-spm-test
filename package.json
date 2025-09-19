@@ -15,10 +15,14 @@
   "cordova": {
     "platforms": [],
     "plugins": {
-      "com.outsystems.plugins.inappbrowser": {}
+      "com.outsystems.plugins.inappbrowser": {},
+      "com.outsystems.plugins.barcode": {
+        "CAMERA_USAGE_DESCRIPTION": " "
+      }
     }
   },
   "devDependencies": {
+    "com.outsystems.plugins.barcode": "github:OutSystems/cordova-outsystems-barcode",
     "com.outsystems.plugins.inappbrowser": "github:andredestro/cordova-outsystems-inappbrowser#feat/spm-support",
     "cordova-ios": "^8.0.0-beta.1-nightly.20250918002324098.sha.91124d18"
   }
