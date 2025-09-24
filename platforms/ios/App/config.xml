@@ -49,4 +49,7 @@
     <preference name="SuppressesLongPressGesture" value="false" />
     <preference name="Suppresses3DTouchGesture" value="false" />
     <preference name="SwiftVersion" value="5" />
+    <feature name="OSBarcode">
+        <param name="ios-package" value="OSBarcode" />
+    </feature>
 </widget>

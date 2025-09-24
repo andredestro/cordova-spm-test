@@ -9,6 +9,10 @@
   "installed_plugins": {
     "com.outsystems.plugins.inappbrowser": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "com.outsystems.plugins.barcode": {
+      "CAMERA_USAGE_DESCRIPTION": " ",
+      "PACKAGE_NAME": "io.cordova.hellocordova"
     }
   },
   "dependent_plugins": {}

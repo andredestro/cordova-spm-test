@@ -14,6 +14,20 @@
             },
             {
               "xml": "<preference name=\"SwiftVersion\" value=\"5\" />",
+              "count": 2
+            },
+            {
+              "xml": "<feature name=\"OSBarcode\"><param name=\"ios-package\" value=\"OSBarcode\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "*-Info.plist": {
+        "parents": {
+          "NSCameraUsageDescription": [
+            {
+              "xml": "<string> </string>",
               "count": 1
             }
           ]
@@ -23,6 +37,10 @@
   },
   "installed_plugins": {
     "com.outsystems.plugins.inappbrowser": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "com.outsystems.plugins.barcode": {
+      "CAMERA_USAGE_DESCRIPTION": " ",
       "PACKAGE_NAME": "io.cordova.hellocordova"
     }
   },
@@ -35,9 +53,34 @@
       "clobbers": [
         "cordova.plugins.OSInAppBrowser"
       ]
+    },
+    {
+      "id": "com.outsystems.plugins.barcode.OSBarcode",
+      "file": "plugins/com.outsystems.plugins.barcode/www/OSBarcode.js",
+      "pluginId": "com.outsystems.plugins.barcode",
+      "clobbers": [
+        "cordova.plugins.OSBarcode"
+      ]
+    },
+    {
+      "id": "com.outsystems.plugins.barcode.OSBarcodeScanner",
+      "file": "plugins/com.outsystems.plugins.barcode/www/OSBarcodeScanner.js",
+      "pluginId": "com.outsystems.plugins.barcode",
+      "clobbers": [
+        "cordova.plugins.OSBarcodeScanner"
+      ]
+    },
+    {
+      "id": "com.outsystems.plugins.barcode.OSBarcodeConstants",
+      "file": "plugins/com.outsystems.plugins.barcode/www/OSBarcodeConstants.js",
+      "pluginId": "com.outsystems.plugins.barcode",
+      "clobbers": [
+        "OSBarcodeConstants"
+      ]
     }
   ],
   "plugin_metadata": {
-    "com.outsystems.plugins.inappbrowser": "1.6.1"
+    "com.outsystems.plugins.inappbrowser": "1.6.1",
+    "com.outsystems.plugins.barcode": "2.0.0"
   }
 }
