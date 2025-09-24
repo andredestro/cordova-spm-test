@@ -15,9 +15,13 @@
   "cordova": {
     "platforms": [
       "ios"
-    ]
+    ],
+    "plugins": {
+      "com.outsystems.plugins.inappbrowser": {}
+    }
   },
   "devDependencies": {
+    "com.outsystems.plugins.inappbrowser": "github:andredestro/cordova-outsystems-inappbrowser#feat/spm-support-via-script",
     "cordova-ios": "^8.0.0-beta.1-nightly.20250922002614567.sha.91124d18"
   }
 }

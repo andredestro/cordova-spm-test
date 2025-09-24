@@ -1,0 +1,10 @@
+{
+  "com.outsystems.plugins.inappbrowser": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/andredestro/cordova-outsystems-inappbrowser#feat/spm-support-via-script"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

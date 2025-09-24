@@ -4,8 +4,40 @@
     "uninstalled": []
   },
   "config_munge": {
-    "files": {}
+    "files": {
+      "config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"OSInAppBrowser\"><param name=\"ios-package\" value=\"OSInAppBrowser\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<preference name=\"SwiftVersion\" value=\"5\" />",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
   },
-  "installed_plugins": {},
-  "dependent_plugins": {}
+  "installed_plugins": {
+    "com.outsystems.plugins.inappbrowser": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "com.outsystems.plugins.inappbrowser.OSInAppBrowser",
+      "file": "plugins/com.outsystems.plugins.inappbrowser/dist/plugin.js",
+      "pluginId": "com.outsystems.plugins.inappbrowser",
+      "clobbers": [
+        "cordova.plugins.OSInAppBrowser"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "com.outsystems.plugins.inappbrowser": "1.6.1"
+  }
 }

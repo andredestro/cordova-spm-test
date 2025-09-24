@@ -45,4 +45,8 @@
     <preference name="SuppressesIncrementalRendering" value="false" />
     <preference name="SuppressesLongPressGesture" value="false" />
     <preference name="Suppresses3DTouchGesture" value="false" />
+    <feature name="OSInAppBrowser">
+        <param name="ios-package" value="OSInAppBrowser" />
+    </feature>
+    <preference name="SwiftVersion" value="5" />
 </widget>

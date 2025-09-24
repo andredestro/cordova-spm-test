@@ -24,7 +24,7 @@ import PackageDescription
 let package = Package(
     name: "CordovaPlugins",
     platforms: [
-        .iOS(.v13),
+        .iOS(.v14),
         .macCatalyst(.v13)
     ],
     products: [
@@ -35,3 +35,6 @@ let package = Package(
     ]
 )
 
+
+package.dependencies.append(.package(name: "com.outsystems.plugins.inappbrowser", path: "../com.outsystems.plugins.inappbrowser"))
+package.targets.first?.dependencies.append(.product(name: "com.outsystems.plugins.inappbrowser", package: "com.outsystems.plugins.inappbrowser"))
