@@ -12,12 +12,16 @@
   ],
   "author": "Apache Cordova Team",
   "license": "Apache-2.0",
+  "devDependencies": {
+    "com.outsystems.plugins.inappbrowser": "github:andredestro/cordova-outsystems-inappbrowser#feat/spm-support",
+    "cordova-ios": "^8.0.0-beta.1-nightly.20250922002614567.sha.91124d18"
+  },
   "cordova": {
     "platforms": [
       "ios"
-    ]
-  },
-  "devDependencies": {
-    "cordova-ios": "^8.0.0-beta.1-nightly.20250922002614567.sha.91124d18"
+    ],
+    "plugins": {
+      "com.outsystems.plugins.inappbrowser": {}
+    }
   }
 }

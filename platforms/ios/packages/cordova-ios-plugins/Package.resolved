@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "OSInAppBrowserLib",
+        "repositoryURL": "https://github.com/OutSystems/OSInAppBrowserLib-iOS.git",
+        "state": {
+          "branch": null,
+          "revision": "5b58eee6b50fdea71cb67f1dd5a08b3e50443072",
+          "version": "2.2.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

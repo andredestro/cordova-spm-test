@@ -29,6 +29,9 @@
         <param name="ios-package" value="CDVStatusBarInternal" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="OSInAppBrowser">
+        <param name="ios-package" value="OSInAppBrowser" />
+    </feature>
     <name>HelloCordova</name>
     <description>Sample Apache Cordova App</description>
     <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
@@ -45,4 +48,5 @@
     <preference name="SuppressesIncrementalRendering" value="false" />
     <preference name="SuppressesLongPressGesture" value="false" />
     <preference name="Suppresses3DTouchGesture" value="false" />
+    <preference name="SwiftVersion" value="5" />
 </widget>
